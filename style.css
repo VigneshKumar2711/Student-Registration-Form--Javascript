@@ -1,0 +1,59 @@
+*{
+    cursor: pointer;
+    background-color:lightgrey;
+    color:darkblue;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .form-container {
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+  }
+  
+  form input, select, button {
+    margin: 5px 0;
+  }
+  
+  .table-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 80%;
+    text-align: left;
+  }
+  
+  table th, table td {
+    padding: 8px 12px;
+  }
+  
+  table th {
+    background-color: #f4f4f4;
+  }
+  
+  button.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  #saveBtn{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
